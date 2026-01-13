@@ -36,6 +36,7 @@ venv.bak/
 *.swp
 *.swo
 *~
+.claude/
 
 # Environment variables
 .env
@@ -80,3 +81,7 @@ Cargo.lock
 Thumbs.db
 # Claude Code temp files
 tmpclaude-*
+
+# Test scripts (optional, keep for dev)
+serveur/test_*.py
+serveur/requirements-lock.txt
