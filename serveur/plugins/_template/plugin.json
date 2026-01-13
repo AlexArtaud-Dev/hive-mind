@@ -1,0 +1,12 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Example plugin template",
+  "triggers": ["example", "test"],
+  "intents": ["example_action"],
+  "config": {
+    "example_setting": "value"
+  },
+  "dependencies": [],
+  "enabled": false
+}
